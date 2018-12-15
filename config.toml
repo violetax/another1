@@ -1,0 +1,43 @@
+baseurl = "/"
+languageCode = "en-us"
+languageLang = "en"
+title = "My new Victor-Hugo site"
+
+# RSS, categories and tags disabled for an easy start
+# See configuration options for more details: 
+# https://gohugo.io/getting-started/configuration/#toml-configuration
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+name = "Strata"
+license = "Creative Commons Attribution 3.0 Unported"
+licenselink = "//github.com/digitalcraftsman/hugo-strata-theme/blob/master/LICENSE.md"
+description = "A responsive and minimal single-page portfolio with blogging capabilities."
+homepage = "//github.com/digitalcraftsman/hugo-strata-theme"
+tags = ["image gallery", "contact form", "google analytics", "customizable", "blog", "single-page"]
+features = ["", ""]
+min_version = 0.16
+
+[author]
+  name = "digitalcraftsman"
+  homepage = "//github.com/digitalcraftsman"
+
+# If porting an existing theme
+[original]
+  name = "AJ"
+  homepage = "//html5up.net/"
+  repo = ""
+
+ [[menu.main]]
+  name = "Home"
+  url  = "/"
+  weight = 0
+
+ [[menu.main]]
+  name = "About"
+  url  = "about"
+  weight = 5
+
+ [[menu.main]]
+  name = "Blog"
+  url  = "post/"
+  weight = 10

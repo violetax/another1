@@ -1,0 +1,17 @@
+{{define"main"}}
+{{ifnot.Site.Params.about.hide}}
+{{partial"about".}}
+{{end}}
+
+{{ifnot.Site.Params.portfolio.hide}}
+{{partial"portfolio".}}
+{{end}}
+
+{{ifnot.Site.Params.recentposts.hide}}
+{{partial"recent-posts".}}
+{{end}}
+
+{{ifnot.Site.Params.contact.hide}}
+{{partial"contact".}}
+{{end}}
+{{end}}
